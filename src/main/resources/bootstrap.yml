@@ -15,6 +15,16 @@ spring:
   
   profiles:
     active: jdbc
+    
+encrypt:
+# key: mysecret
+  key-store:
+    alias: mysecret
+    location: server.jks
+    password: allowme
+    secret: allowmein
+    
+  
        
         
  
