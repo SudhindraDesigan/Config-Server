@@ -36,10 +36,13 @@ Two types of keys can be used : Symmetric and Asymmetric Key
 
 #### How to encrypt and decrypt ??
 
-					To encrypt the string follow the steps : 
+			To encrypt the string follow the steps : 
+
 					Pass a String to be encrypted as a request to http://localhost:9014/encrypt. 
 					Response will be encrypted data.
+			
 			To decrypt the string follow the steps : 
+			
 					Pass a encrypted String as a request to http://localhost:9014/decrypt. 
 					Response will be decrypted data.
 
