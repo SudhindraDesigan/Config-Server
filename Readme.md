@@ -6,6 +6,11 @@
 
 Add the property spring.cloud.config.server.bootstrap in bootstrap.yml to boolean value.
 
+### RefreshScope
+
+Modify the properties and make a POST call to /refresh with empty request. Eg : {}.
+
+Now, without restarting the application, we can see the changes made in properties in client side.
 
 ### Encryption and Decryption
 

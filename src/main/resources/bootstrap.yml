@@ -23,7 +23,10 @@ encrypt:
     location: server.jks
     password: allowme
     secret: allowmein
-    
+
+management:
+  security:
+    enabled: false
   
        
         
